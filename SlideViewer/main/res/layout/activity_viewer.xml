@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewerActivity">
+
+    <TextView
+        android:id="@+id/TextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/txtFile1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txtFile2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/txtFile1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="17dp" />
+
+
+    <TextView
+        android:id="@+id/txtFile3"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/txtFile2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/txtFile4"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@id/txtFile3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="17dp" />
+
+    <ImageView
+        android:id="@+id/iv_display"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/img1" />
+
+    <Button
+        android:id="@+id/btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_left"
+        android:layout_marginEnd="61dp"
+        android:text="&gt;" />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="95dp"
+        android:layout_marginStart="61dp"
+        android:text="&lt;" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Menu"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copyright by @ Karol Pekala 2022 "
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
