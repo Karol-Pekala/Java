@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <Button
+        android:id="@+id/Main"
+        android:layout_width="350dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009688"
+        android:text="Main Menu"
+        android:textSize="24dp"
+        app:cornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Choose players colors"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/One"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Player One"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Choose" />
+
+    <TextView
+        android:id="@+id/Two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Player Two"
+        android:textSize="30sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Choose"/>
+
+    <Button
+        android:id="@+id/Pink1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF8FFF"
+        android:text="Pink"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/One"
+        app:layout_constraintTop_toBottomOf="@id/One" />
+
+    <Button
+        android:id="@+id/Pink2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF8FFF"
+        android:text="Pink"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Two"
+        app:layout_constraintTop_toBottomOf="@id/Two" />
+
+    <Button
+        android:id="@+id/Blue1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7E7EFF"
+        android:text="Blue"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/Pink1"
+        app:layout_constraintTop_toBottomOf="@id/Pink1" />
+
+    <Button
+        android:id="@+id/Blue2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7E7EFF"
+        android:text="Blue"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Pink2"
+        app:layout_constraintTop_toBottomOf="@id/Pink2" />
+
+    <Button
+        android:id="@+id/Green1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7ECC7E"
+        android:text="Green"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/Blue1"
+        app:layout_constraintTop_toBottomOf="@id/Blue1" />
+
+    <Button
+        android:id="@+id/Green2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7ECC7E"
+        android:text="Green"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Blue2"
+        app:layout_constraintTop_toBottomOf="@id/Blue2" />
+
+    <Button
+        android:id="@+id/Mint1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7EDDDD"
+        android:text="Mint"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/Green1"
+        app:layout_constraintTop_toBottomOf="@id/Green1" />
+
+    <Button
+        android:id="@+id/Mint2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7EDDDD"
+        android:text="Mint"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Green2"
+        app:layout_constraintTop_toBottomOf="@id/Green2" />
+
+    <Button
+        android:id="@+id/Yellow1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFDD7E"
+        android:text="Yellow"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/Mint1"
+        app:layout_constraintTop_toBottomOf="@id/Mint1" />
+
+    <Button
+        android:id="@+id/Yellow2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FFDD7E"
+        android:text="Yellow"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Mint2"
+        app:layout_constraintTop_toBottomOf="@id/Mint2" />
+
+    <Button
+        android:id="@+id/Orange1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9977"
+        android:text="Orange"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintLeft_toLeftOf="@id/Yellow1"
+        app:layout_constraintTop_toBottomOf="@id/Yellow1" />
+
+    <Button
+        android:id="@+id/Orange2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF9977"
+        android:text="Orange"
+        android:textSize="20sp"
+        app:cornerRadius="7dp"
+        app:layout_constraintRight_toRightOf="@id/Yellow2"
+        app:layout_constraintTop_toBottomOf="@id/Yellow2" />
+
+    <TextView
+        android:id="@+id/copyRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:text="Copyright by @ Karol Pekala 2022"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
